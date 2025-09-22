@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML</title>
+</head>
+
+<body>
+    <h1>HTML Form Example</h1>
+    <p>This is an example of an HTML4 HTML5 form containing <mark>input</mark> controls:</p>
+
+    <form>
+        <fieldset>
+            <legend>User Information</legend>
+            Username: <input type="text" name="username"><br><br>
+            Email: <input type="email" name="email"><br><br>
+            Password: <input type="password" name="password">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            Phone: <input type="tel" name="phone"><br><br>
+            Message:<br>
+            <textarea name="message" rows="4" cols="40"></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Subscription</legend>
+            <input type="checkbox" name="sub1"> Subscribe to newsletter:<br>
+            <input type="checkbox" name="sub2"> Subscribe to newsletter:
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Preferred Language</legend>
+            Select your preferred language:
+            <select name="language">
+                <option>English</option>
+                <option>Spanish</option>
+                <option>French</option>
+                <option>German</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            Rate our service: <input type="range" name="rate" min="0" max="10">
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
